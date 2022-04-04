@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    background: rgb(161, 255, 231)
+}
+img{
+    width:100%;
+}
+header{
+    border:1px solid red;
+    display:flex;
+}
+header.logo, 
+header nav{
+    flex: 1;
+}
+main{
+    border:1px solid purple;
+}
+section{
+    border:1px solid green;
+}
