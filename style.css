@@ -5,6 +5,8 @@ body{
 h1{
     color:blue;
     text-align: center;
+    font-family: sans-serif;
+    letter-spacing: .2em;
 }
 
 .container{
@@ -14,7 +16,7 @@ h1{
     height:200px;
     background-color: cadetblue;
     display:block;
-    margin:auto;
+    margin:30px auto;
     border: 10px solid blueviolet;
     border-radius: 15px;
 
