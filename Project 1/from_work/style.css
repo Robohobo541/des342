@@ -3,12 +3,15 @@ body{
 }
 
 .container{
-    margin: 50px auto;
-    display:block;
-    position:relative;
-    height:1080px;
-    width:1920px;
-    z-index: -1;
+  margin: 50px auto;
+  display:block;
+  position:relative;
+  height:1080px;
+  width:1920px;
+  z-index: -1;
+  border:20px solid hotpink;
+  border-radius: 60px;
+  overflow: hidden;
 }
 
 .button {
@@ -65,4 +68,10 @@ body{
 
   a{
     text-decoration: none;
+  }
+
+  .navbar{
+    width:1920px;
+    display:block;
+    margin:10px auto;
   }

@@ -9,6 +9,9 @@ body{
     height:1080px;
     width:1920px;
     z-index: -1;
+    border:20px solid hotpink;
+    border-radius: 60px;
+    overflow: hidden;
 }
 
 .button {
@@ -57,12 +60,24 @@ body{
     letter-spacing: .3em;
     line-height: 2em;
     display:inline-block;
+    margin:0px 10px;
   }
   .button2:hover {
-    background-color: #000000;
-    color: white;
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-color:hotpink;
   }
 
   a{
     text-decoration: none;
+  }
+  
+  .navbar{
+    width:1920px;
+    display:block;
+    margin:10px auto;
+  }
+
+  img{
+    border-radius: 40px;
   }
