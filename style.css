@@ -1,49 +1,46 @@
-body{
-    background-color: antiquewhite;
+body {
+  background-color: antiquewhite;
 }
 
-h1{
-    color:blue;
-    text-align: center;
-    font-family: sans-serif;
-    letter-spacing: .2em;
+h1 {
+  color: blue;
+  text-align: center;
+  font-family: sans-serif;
+  letter-spacing: 0.2em;
 }
 
-.container{
-    width:300px;
-    min-width: 50%;
-    max-width: 75%;
-    height:200px;
-    background-color: cadetblue;
-    display:block;
-    margin:30px auto;
-    border: 10px solid blueviolet;
-    border-radius: 15px;
-
+.container {
+  width: 300px;
+  min-width: 50%;
+  max-width: 75%;
+  height: 200px;
+  background-color: cadetblue;
+  display: block;
+  margin: 30px auto;
+  border: 10px solid blueviolet;
+  border-radius: 15px;
 }
 
-.button{
-    width:150px;
-    height:40px;
-    color:aqua;
-    background-color: rgb(255, 0, 0);
-    display: inline-block;
-    text-align: center;
-    list-style-type: none;
-    line-height: 2.3em;
-    border-radius: 4px;
-    box-shadow: 3px 3px rgb(25, 0, 48);
-    text-decoration: none;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    letter-spacing: .2em;
-    margin:40px 20px 0px 20px;
-    hyphens:none;
-    position:relative;
-    left: 10%;
-    
-
+.button {
+  width: 150px;
+  height: 40px;
+  color: aqua;
+  background-color: rgb(255, 0, 0);
+  display: inline-block;
+  text-align: center;
+  list-style-type: none;
+  line-height: 2.3em;
+  border-radius: 4px;
+  box-shadow: 3px 3px rgb(25, 0, 48);
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 0.2em;
+  margin: 40px 20px 0px 20px;
+  hyphens: none;
+  position: relative;
+  left: 10%;
 }
 
-.button:hover{
-    background-color: darkgoldenrod;
+.button:hover {
+  background-color: darkgoldenrod;
 }
