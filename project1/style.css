@@ -130,6 +130,10 @@ a:active {
   display: none;
 }
 
+#work-btn{
+  display:none;
+}
+
 /*
 .tv-channels{
     width:45vw;
