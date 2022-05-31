@@ -96,6 +96,18 @@ a:active {
   z-index: 10;
 }
 
+
+.tv-btn1 {
+  flex: start;
+  margin: 0px 20px 0px 0px;
+}
+
+.tv-btn2 {
+  flex: end;
+  order: 2;
+  margin-left: auto;
+}
+
 .escape-btn {
   margin: -150px 70%;
   width: 70vw;
@@ -108,24 +120,31 @@ a:active {
   padding: 10px;
 }
 
+
 .tv-container {
-  width: 30%;
-  height: 30%;
-  margin: -400px 25%;
-  background-color: aqua;
+  width: 75vw;
+  height:50vh;
+  background-color:aqua;
   display: flex;
-  position: absolute;
+  flex-basis:75vw;
+  position: relative;
   justify-content: center;
+  margin:5vh auto;
 }
 
 .tv-channels {
-  height: 100%;
-  width: auto;
-  border: 10px solid black;
-  border-radius: 10px;
   z-index: 6;
-  display: relative;
+  flex: 1 1 70%;
+  position:relative;
+  
 }
+
+.clicker-no-bg{
+flex:1 1 30%;
+height:10%;
+position:relative;
+}
+
 #scroll-btn {
   display: none;
 }
@@ -133,31 +152,6 @@ a:active {
 #work-btn{
   display:none;
 }
-
-/*
-.tv-channels{
-    width:45vw;
-    height:270px;
-    z-index: 6;
-    position:absolute;
-    border: 10px solid black;
-    border-radius:10px;
-    display:contents;
-    z-index: 5;
-    margin: 20px 20px;
-}
-
-
-.tv-container{
-    width:50vw;
-    height:270px;
-    background-color: aqua;
-    display:block;
-    z-index:5;
-    margin:-45vh 15%;
-    position:absolute;
-    display:none;
-} */
 
 .title {
   animation-name: floating;
